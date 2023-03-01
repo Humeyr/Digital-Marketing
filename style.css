@@ -1,0 +1,30 @@
+
+
+.navbar img{height: 40px;
+    width: 40px;
+    margin-left: 10px;
+
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+.card{
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: translate(10px,-10px);
+    box-shadow: 2px 2px 20px  black;
+    transition: all 0.5s;
+}
+.btn:hover{
+  transform: scale(1.05);
+  background-color: crimson;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.card img{
+    height: 275px;
+    width: 250px;
+   
+}
